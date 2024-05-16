@@ -281,7 +281,7 @@ plugins:
   - social:
       cards_layout_dir: layouts
       cards_layout: quix
-  - glightbox
+  - glightbox:
   - redirects:
       redirect_maps:
         'index.md': 'get-started/welcome.md'
@@ -400,6 +400,7 @@ extra_css:
 extra_javascript:
   - javascripts/quix.js
   - javascripts/feedback.js
+  - javascripts/runllm-widget.js
 extra:
   social:
     - icon: 'fontawesome/brands/github'
